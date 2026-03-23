@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
@@ -32,7 +33,7 @@ export default function Footer() {
 
           {/* 🔹 COLUNA 3: IMPACTO SOCIAL (MOÇAMBIQUE) */}
           <div>
-            <h3 className="text-farm-gold font-bold mb-6">Social & Educação</h3>
+            <h3 className="text-white font-bold mb-6">Social & Educação</h3>
             <ul className="space-y-4 text-sm text-gray-400">
               <li><Link href="#" className="hover:text-farm-gold transition-colors">Programa E-Rise</Link></li>
               <li><Link href="#" className="hover:text-farm-gold transition-colors">Apoio E-Hope</Link></li>
@@ -44,12 +45,32 @@ export default function Footer() {
           {/* 🔹 COLUNA 4: CONTATO & LOCALIZAÇÃO */}
           <div>
             <h3 className="text-white font-bold mb-6">Presença</h3>
-            <p className="text-sm text-gray-400 mb-2 font-semibold text-farm-leaf">Sede Moçambique</p>
+            <p className="text-sm text-gray-400 mb-2 font-semibold text-farm-leaf">Sede Representativa de Moçambique</p>
             <p className="text-xs text-gray-500 leading-relaxed italic">
-              Operações agroindustriais focadas na recuperação e desenvolvimento global.
+              Operações agroindustriais focadas na recuperação e desenvolvimento local.
             </p>
           </div>
         </div>
+
+        {/* Escritórios Fisicos */}
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.8 }}
+                >
+                  <h3 className="text-white font-bold mb-6">
+                    Escritórios Físicos & Presença
+                  </h3>
+                  <ul className="space-y-2 text-sm text-gray-400">
+                    <li>📍 Moçambique - Nhamatanda (Representatividade)</li>
+                    <li>📍 Canadá - Toronto (Extracurricular)</li>
+                    <li>📍 USA - Nova Iorque (Sede Global)</li>
+                    <li>📍 Mais locais de representatividade e futuras expansões em nossas instalações educacionais globais (Carregando...)</li>
+                    <li className="hover:text-white cursor-pointer">
+                    </li>
+                  </ul>
+                </motion.div>
 
         {/* 🔹 BARRA FINAL (DIREITOS) */}
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
@@ -59,7 +80,7 @@ export default function Footer() {
           </p>
           <div className="flex gap-6">
             <span className="text-[10px] px-2 py-1 rounded border border-white/10 text-gray-500 uppercase tracking-widest font-bold">
-              Division: Agro & Social
+              EdenKingDom Divisions: E-Farm+ & E-Social
             </span>
           </div>
         </div>

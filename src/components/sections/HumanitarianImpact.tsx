@@ -48,7 +48,7 @@ export default function HumanitarianImpact() {
             <h3 className="text-4xl md:text-5xl font-bold text-white mb-8">Mais que Alimento, <br /> Entregamos Dignidade.</h3>
             
             <p className="text-gray-400 text-lg leading-relaxed mb-10">
-              A **E-Farm+** é o braço produtivo das nossas missões humanitárias. Em momentos de crise, mobilizamos nossa infraestrutura para garantir que produtos frescos cheguem onde mais se precisa, apoiando a reconstrução de comunidades afetadas por desastres em Moçambique.
+              A E-Farm+ é o braço produtivo das nossas missões humanitárias. Em momentos de crise, mobilizamos nossa infraestrutura para garantir que produtos frescos cheguem onde mais se precisa, apoiando a reconstrução de comunidades afetadas por desastres em Moçambique.
             </p>
 
             {/* Números do Impacto */}
@@ -66,9 +66,9 @@ export default function HumanitarianImpact() {
 
         {/* 🌍 DIVISÃO MUNDO (E-Hope Global) */}
         <div className="mt-24 p-8 md:p-12 rounded-3xl bg-white/5 border border-white/10 text-center">
-          <h4 className="text-xl font-bold text-white mb-4">Expansão E-Hope Global</h4>
+          <h4 className="text-xl font-bold text-white mb-4">Expansão da Divisão E-Social a nível Global</h4>
           <p className="text-gray-400 max-w-2xl mx-auto mb-8">
-            Nossa visão ultrapassa fronteiras. O modelo de produção integrada da EdenKingDom está a ser preparado para ser replicado em outras regiões em crise ao redor do mundo.
+            Nossa visão ultrapassa fronteiras. O modelo de produção integrada da EdenKingDom está a ser preparado para ser replicado em outras regiões e nações em crise ao redor do mundo.
           </p>
           <div className="flex justify-center gap-2">
             <div className="w-2 h-2 rounded-full bg-farm-green" />

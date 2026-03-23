@@ -14,9 +14,9 @@ export default function LogoEFarm() {
       >
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/logo-efarm.png" // Certifique-se de que o nome do arquivo na pasta public é este
+            src="/logo-efarm1.png" 
             alt="E-Farm+ Logo"
-            width={50} // Tamanho ideal para o Header
+            width={50} 
             height={50}
             className="object-contain"
             priority

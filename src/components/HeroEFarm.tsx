@@ -72,6 +72,17 @@ export default function HeroEFarm() {
   </p>
 </div>
 
+{/* Card Piscicultura (Criação de Peixes) */}
+<div className="col-span-2 p-6 bg-gradient-to-r from-blue-500/10 to-transparent border border-white/10 rounded-3xl backdrop-blur-md flex items-center gap-6">
+  <div className="text-5xl">🐟</div>
+  <div>
+    <h3 className="text-xl font-bold text-blue-400 mb-1">Piscicultura Sustentável</h3>
+    <p className="text-sm text-gray-400 font-medium">
+      Produção de pescado em sistemas controlados para garantir proteína de qualidade e baixo impacto ambiental.
+    </p>
+  </div>
+</div>
+
 
           {/* Card Impacto Social (E-Rise/Hope) */}
           <div className="col-span-2 p-6 bg-gradient-to-r from-farmGold/10 to-transparent border border-white/10 rounded-3xl backdrop-blur-md flex items-center gap-6">

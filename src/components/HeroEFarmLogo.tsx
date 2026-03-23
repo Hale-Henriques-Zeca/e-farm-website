@@ -16,7 +16,7 @@ export default function HeroEFarmLogo() {
         <Link href="/" className="text-5xl md:text-6xl font-extrabold leading-tight mb-0.1">
 
           <Image
-            src="/logo-efarm.png"
+            src="/logo-efarm1.png"
             alt="E-Farm+ Logo"
             width={500}
             height={80}
