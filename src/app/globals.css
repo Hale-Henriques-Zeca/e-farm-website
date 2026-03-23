@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Cores extraídas do novo logo E-Farm+ */
+  --color-farm-green: #2d5a27;
+  --color-farm-leaf: #4ade80;
+  --color-farm-brown: #4b3621;
+  --color-farm-soil: #a52a2a;
+  --color-farm-gold: #ffd700;
+  --color-farm-black: #0b0c0b;
+
+  --color-background: var(--farm-black);
+  --color-foreground: #ededed;
+  
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --farm-green: #2d5a27;
+  --farm-leaf: #4ade80;
+  --farm-brown: #4b3621;
+  --farm-soil: #a52a2a;
+  --farm-gold: #ffd700;
+  --farm-black: #0b0c0b;
+  
+  --background: var(--farm-black);
+  --foreground: #ededed;
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  /* Degradê suave que remete à terra e cultivo */
+  background-image: radial-gradient(circle at top right, rgba(45, 90, 39, 0.15), transparent),
+                    radial-gradient(circle at bottom left, rgba(165, 42, 42, 0.1), transparent);
+  min-height: 100vh;
+  margin: 0;
+  font-family: var(--font-sans);
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
+
+@utility bg-farm-gradient {
+  background: linear-gradient(to right, #4ade80, #ffd700, #a52a2a, #8b5cf6);
+}
